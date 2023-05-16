@@ -1,0 +1,167 @@
+/* navbar animations */
+/* features get from this website link https://codepen.io/tag/animated%20navbar */
+.navbar-nav a {
+    /* color: #E5E5E5; */
+    transition: all ease 0.5s;
+}
+
+.navbar-nav a:hover,
+.navbar-nav a:focus,
+.navbar-nav a:active,
+.navbar-nav a.hilite {
+    color: white;
+    background: #e57373;
+    border-bottom: 1px #7F7F7F solid;
+}
+
+.button-nav {
+    width: 10rem;
+    font-size: small;
+    /* font-family:'Times New Roman'; */
+    color: white;
+    background-color: rgb(163, 18, 18);
+    /* margin-left: 100%; */
+
+}
+
+.navbar-color {
+    background-color: white;
+}
+
+.navbar1 {
+    background-color: white;
+}
+
+.item-color a {
+    color: rgb(163, 18, 18);
+    font-weight: bold;
+    /* position: relative; */
+}
+
+.heading1 {
+    font-size: xx-large;
+    color: white;
+    font-weight: bold;
+}
+
+.para1 {
+    color: white;
+    /* font-weight: bold; */
+    /* font-family: 'Times New Roman'; */
+}
+
+.para2 {
+    color: white;
+}
+
+.button-que {
+    width: 10rem;
+    border-radius: 5rem;
+    color: black;
+    background-color: white;
+}
+
+.button-que:hover {
+    background-color: rgb(163, 18, 18);
+    color: white;
+}
+
+.home-banner {
+    background: url(https://isoftstudios.com/assets/images/banner/Fade-Background-V3.jpg);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-size: cover !important;
+    background-position: 50% !important;
+    background-repeat: no-repeat !important;
+    height: 75vh;
+}
+
+/* here add the media screen in which I told him that after 450px my bg img hight increase automaticaly */
+@media screen and (max-width: 450px) {
+    .home-banner {
+        height: auto !important;
+    }
+}
+
+.middle-button {
+    background-color: white;
+    width: 10rem;
+    color: black;
+    border-radius: 18px;
+}
+
+.middle-button:hover {
+    background-color: rgb(163, 18, 18);
+    color: white;
+}
+
+.middle-button2 {
+    background-color: rgb(163, 18, 18);
+    width: 10rem;
+    color: white;
+    border-radius: 18px;
+
+}
+
+.middle-button2:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.heading2 {
+    font-size: xx-large;
+    color: rgb(163, 18, 18);
+    font-weight: bold;
+
+    /* here is the css of all boxes */
+}
+
+.box {
+    height: 19rem;
+    width: 15rem;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 8px 5px 18px rgb(128, 125, 125);
+
+}
+
+.row .anchortag {
+    text-decoration: none;
+}
+
+.anchortag .hbox p {
+
+    color: black;
+}
+
+.image img {
+    height: 20vh;
+    width: 60%;
+    border-radius: 40px;
+    margin-top: 1rem;
+}
+
+.hbox p {
+    font-weight: bold;
+
+
+}
+
+.pbox p {
+    font-size: 80%;
+    color: black;
+}
+/* box css end here up */
+
+.h3-heading{
+    font-weight: bold;
+    color: rgb(163, 18, 18);
+}
+.color{
+    height: 20rem;
+    background-color: #e9e6e6;
+}
+.linkstyle li{
+    list-style: none;
+}
